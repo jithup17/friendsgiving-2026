@@ -6,3 +6,7 @@
 .brothers-photo img{object-fit:cover;object-position:50% 50%}.magnus-card figcaption:has(b){display:block}.magnus-card figcaption b{font-size:clamp(21px,2.1vw,30px);font-weight:500;letter-spacing:-.05em}.magnus-card figcaption:has(b) span{display:block;max-width:none;margin-top:3px}.collage:has(.brothers-photo) .bubble{bottom:135px}.collage:has(.brothers-photo) .mini-ticket{bottom:-40px;padding:10px 18px}.collage:has(.brothers-photo) .mini-ticket b{font-size:30px}
 @media(max-width:650px){.magnus-card figcaption b{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Magnus & Moose wordmark */
+.brand{display:inline-flex;align-items:center;white-space:nowrap;font-size:30px;letter-spacing:-2px}.brand span{font-size:21px;letter-spacing:normal;padding-left:6px}
+@media(max-width:650px){.brand{font-size:24px}.brand span{font-size:17px;padding-left:3px}.topbar nav{gap:12px}}
